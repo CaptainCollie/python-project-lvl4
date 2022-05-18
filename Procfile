@@ -1,1 +1,1 @@
-web: make install-gunicorn && make install && make runserver
+web: make install && make runserver
