@@ -4,5 +4,3 @@ runserver:
 install:
 	poetry install
 
-install-gunicorn:
-	sudo apt install gunicorn
