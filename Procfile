@@ -1,1 +1,1 @@
-web: make install && make runserver
+web: make runserver
