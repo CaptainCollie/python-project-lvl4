@@ -26,9 +26,11 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', '')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'heroku',
+    'localhost',
+    '127.0.0.1',
+    '[::1]',
+    '.herokuapp.com',
     'webserver',
-    '127.0.0.1'
 ]
 
 
