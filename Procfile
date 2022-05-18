@@ -1,1 +1,1 @@
-web: poetry run python manage.py runserver 0.0.0.0:\$PORT
+web: poetry init && poetry run python manage.py runserver 0.0.0.0:\$PORT
